@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__nav">
+                <a class="header__logo" href="#!">Titov Maxim</a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#!" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#!" class="nav__link">Works</a></li>
+                        <li class="nav__item"><a href="#!" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="#!" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#!" class="nav__link">Contact</a></li>
+                    </ul>
+                    <button class="nav__button"><img class="nav__button-img" src="./img/svg/burger.svg"
+                            alt="nav-open"></button>
+                </nav>
+            </div>
+            <div data-aos="fade-right" class="header__row">
+                <div class="header__content">
+                    <h1 class="header__heading">
+                        Maxim Titov <br> Frontend Developer
+                    </h1>
+                    <p class="header__text">
+                        I’m a portrait, fashion and lifestyle photographer living In New York City. During my thirteen
+                        year tenure here.
+                    </p>
+                </div>
+                <div data-aos="fade-left" class="header__img">
+                    <picture>
+                        <source media="(max-width:868px)" srcset="./img/mainblock/hero-mobile.png">
+                        <img src="./img/mainblock/hero.png" alt="hero">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="services">
+        <div class="services__container container">
+            <div class="services__row">
+                <div data-aos="zoom-in" class="service__card">
+                    <img class="service__card-image" src="./img/svg/graphic 1.svg" alt="UI/UX Design">
+                    <h3 class="service__card-title">UI/UX Design</h3>
+                    <p class="service__card-text">Our design is translated into comprehensive digital environments built
+                        on latest development standards.</p>
+                </div>
+                <div data-aos="zoom-in" class="service__card">
+                    <img class="service__card-image" src="./img/svg/startup 1.svg" alt="UI/UX Design">
+                    <h3 class="service__card-title">Development</h3>
+                    <p class="service__card-text">Our design is translated into comprehensive digital environments built
+                        on latest development standards.</p>
+                </div>
+                <div data-aos="zoom-in" class="service__card">
+                    <img class="service__card-image" src="./img/svg/browser 1.svg" alt="UI/UX Design">
+                    <h3 class="service__card-title">software testing</h3>
+                    <p class="service__card-text">Our design is translated into comprehensive digital environments built
+                        on latest development standards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="portfolio__container container">
+            <div class="portfolio__title">
+                <h2 class="portfolio__title-text">
+                    Portfolio
+                </h2>
+            </div>
+            <div data-aos="flip-left" class="project">
+                <img class="project__image" src="/img/portfolio/01.jpg" alt="Online fashion store">
+                <h3 class="project__title"><a class="project__link" href="#!">Online fashion store - Homepage</a></h3>
+            </div>
+            <div data-aos="flip-left" class="project">
+                <img class="project__image" src="/img/portfolio/02.jpg" alt="Online fashion store">
+                <h3 class="project__title"><a class="project__link" href="#!">Reebok Store - Concept</a></h3>
+            </div>
+            <div data-aos="flip-left" class="project">
+                <img class="project__image" src="/img/portfolio/03.jpg" alt="Online fashion store">
+                <h3 class="project__title"><a class="project__link" href="#!">Braun Landing Page - Concept</a></h3>
+            </div>
+        </div>
+    </section>
+    <footer class="contacts">
+        <div class="contacts__container container">
+            <div class="contacts__title">
+                <h2 class="contacts__title-text">
+                    Contacts
+                </h2>
+            </div>
+            <div class="contacts__contact">
+                <p class="contants__subtext">
+                    Want to know more or just chat? <br>
+                    You are welcome!
+                </p>
+            </div>
+            <div class="contacts__button">
+                <a href="#!">Send message</a>
+            </div>
+            <div class="contacts__social">
+                <a href="#!"><img src="./img/social/LinkedIn.svg" alt="LinkedIn"></a>
+                <a href="#!"><img src="./img/social/Instargam.svg" alt="Instargam"></a>
+                <a href="#!"><img src="./img/social/Behance.svg" alt="Behance"></a>
+                <a href="#!"><img src="./img/social/Dribble.svg" alt="Dribble"></a>
+            </div>
+            <div class="contacts__footer">
+                <p>Like me on <br>
+                    LinkedIn, Instagram, Behance, Dribble</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
